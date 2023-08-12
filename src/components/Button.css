@@ -1,0 +1,19 @@
+.van--type {
+  color: #ffead0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  max-width: 80px;
+  text-align: center;
+}
+
+.simple {
+  background-color: #e17654;
+}
+
+.luxury {
+  background-color: #161616;
+}
+
+.rugged {
+  background-color: #115e59;
+}

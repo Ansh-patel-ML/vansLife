@@ -1,0 +1,51 @@
+.hero--container {
+  background-image: url("../assets/hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.hero--container h2,
+.hero--container p,
+.hero--btn {
+  color: #ffffff;
+  width: 100%;
+  max-width: 700px;
+}
+
+.hero--container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero--container p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.hero--btn {
+  background-color: #ff8c38;
+  padding: 15px 10px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero--btn:hover {
+  cursor: pointer;
+  background-color: #ff9c48;
+}

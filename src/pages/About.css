@@ -1,0 +1,50 @@
+.about--image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: black;
+}
+
+.about--container {
+  padding: 20px;
+  background-color: #fff7ed;
+}
+
+.about--content h1 {
+  font-size: 1.4rem;
+}
+
+.about--content p {
+  font-size: 0.8rem;
+}
+
+.about--navigation--card {
+  background-color: #ffcc8d;
+  padding: 20px 20px 35px 20px;
+  border-radius: 5px;
+}
+
+.card--text--one,
+.card--text--two {
+  font-size: 1.2rem;
+}
+
+.card--text--one {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.card--text--two {
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-family: 400;
+  background-color: #161616;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
